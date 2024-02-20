@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proposal Viewer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <img src="static/img/logo.png" alt="Logo" class="mx-auto mb-2 logo-img">
+        <h1 class="h3">Proposal Viewer</h1>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <label for="proposal-type-filter">Proposal Type:</label>
+                <select id="proposal-type-filter" class="form-control">
+                    <option value="">All</option>
+                    <option value="/ibc.core.client.v1.ClientUpdateProposal">Client Update</option>
+                    <option value="/cosmos.distribution.v1beta1.CommunityPoolSpendProposal">Community Pool Spend</option>
+                    <option value="/cosmos.params.v1beta1.ParameterChangeProposal">Parameter Change</option>
+                    <option value="/cosmos.upgrade.v1beta1.SoftwareUpgradeProposal">Software Upgrade</option>
+                    <option value="/cosmos.gov.v1beta1.TextProposal">Text Proposal</option>
+                    <!-- Add more options for different proposal types -->
+                </select>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="status-filter">Status:</label>
+                <select id="status-filter" class="form-control">
+                    <option value="">All</option>
+                    <option value="PROPOSAL_STATUS_DEPOSIT_PERIOD">Deposit Period</option>
+                    <option value="PROPOSAL_STATUS_VOTING_PERIOD">Voting Period</option>
+                    <option value="PROPOSAL_STATUS_PASSED">Passed</option>
+                    <option value="PROPOSAL_STATUS_REJECTED">Rejected</option>
+                    <option value="PROPOSAL_STATUS_FAILED">Failed</option>
+                    <option value="ERR">ERROR</option>
+                    <!-- Add more options for different proposal statuses -->
+                </select>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="chain-name-filter">Chain Name:</label>
+                <select id="chain-name-filter" class="form-control">
+                    <option value="">All</option>
+                    {% for chain in chain_names | sort %}
+                        <option value="{{ chain }}">{{ chain }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="chain-id-filter">Chain ID:</label>
+                <select id="chain-id-filter" class="form-control">
+                    <option value="">All</option>
+                    {% for chain in chain_ids | sort %}
+                        <option value="{{ chain }}">{{ chain }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="table-responsive table-responsive-sm">
+            <table class="table table-bordered" id="proposal-table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th class="col">Chain Name</th>
+                        <th class="col">Chain ID</th>
+                        <th class="col">Proposal ID</th>
+                        <th class="col">Type</th>
+                        <th class="col">Title</th>
+                        <th class="col">Status</th>
+                        <th class="col">Voting Start Time</th>
+                        <th class="col">Voting End Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for proposal in proposals %}
+                        <tr>
+                            <td>{{ proposal[0] }}</td>
+                            <td>{{ proposal[1] }}</td>
+                            <td>{{ proposal[2] }}</td>
+                            <td>{{ proposal[3] }}</td>
+                            <td>{{ proposal[4] }}</td>
+                            <td>{{ proposal[5] }}</td>
+                            <td>{{ proposal[6] }}</td>
+                            <td>{{ proposal[7] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+

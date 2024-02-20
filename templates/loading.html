@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CT.ProposalViewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="loading-screen">Gathering on-chain governance data...</div>
+    <script>
+        // Redirect to the /proposals endpoint after a delay
+        setTimeout(function() {
+            window.location.href = "/proposals";
+        }, 1000);
+    </script>
+</body>
+</html>
+

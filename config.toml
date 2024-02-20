@@ -1,0 +1,310 @@
+[[chains]]
+name = "acrechain"
+displayname = "Acrechain"
+chain-id = "acre_9052-1"
+rpc = "https://rpc.acrechain.chaintools.tech:443"
+api = "https://api.acrechain.chaintools.tech:443"
+
+[[chains]]
+name = "beezee"
+displayname = "Beezee"
+chain-id = "beezee-1"
+rpc = "https://rpc.getbze.com:443"
+api = "https://rest.getbze.com:443"
+
+[[chains]]
+name = "bitsong"
+displayname = "BitSong"
+chain-id = "bitsong-2a"
+rpc = "https://rpc.bitsong.chaintools.tech:443"
+api = "https://api.bitsong.chaintools.tech:443"
+
+[[chains]]
+name = "blit"
+displayname = "Blit"
+chain-id = "blit-1"
+rpc = "https://rpc.blitchain.net:443"
+api = "https://rest.blitchain.net:443"
+
+[[chains]]
+name = "bluzelle"
+displayname = "Bluzelle"
+chain-id = "bluzelle-9"
+rpc = "https://a.client.sentry.net.bluzelle.com:26657"
+api = "https://a.client.sentry.net.bluzelle.com:1317"
+
+[[chains]]
+name = "carbon"
+displayname = "Carbon"
+chain-id = "carbon-1"
+rpc = "https://tm-api.carbon.network:443"
+api = "https://api.carbon.network:443"
+
+[[chains]]
+name = "cheqd"
+displayname = "Cheqd"
+chain-id = "cheqd-mainnet-1"
+rpc = "https://rpc.cheqd.net:443"
+api = "https://api.cheqd.net:443"
+
+[[chains]]
+name = "chihuahua"
+displayname = "Chihuahua"
+chain-id = "chihuahua-1"
+rpc = "https://rpc-chihuahua.ecostake.com:443"
+api = "https://rest-chihuahua.ecostake.com:443"
+
+[[chains]]
+name = "comdex"
+displayname = "Comdex"
+chain-id = "comdex-1"
+rpc = "https://rpc.comdex.one:443"
+api = "https://rest.comdex.one:443"
+
+[[chains]]
+name = "cosmoshub"
+displayname = "Cosmos Hub"
+chain-id = "cosmoshub-4"
+rpc = "https://cosmos-rpc.quickapi.com:443"
+api = "https://cosmos-lcd.quickapi.com:443"
+
+[[chains]]
+name = "crescent"
+displayname = "Crescent"
+chain-id = "crescent-1"
+rpc = "https://mainnet.crescent.network:26657"
+api = "https://mainnet.crescent.network:1317"
+
+[[chains]]
+name = "decentr"
+displayname = "Decentr"
+chain-id = "mainnet-3"
+rpc = "https://rpc.decentr.chaintools.tech:443"
+api = "https://api.decentr.chaintools.tech:443"
+
+[[chains]]
+name = "desmos"
+displayname = "Desmos"
+chain-id = "desmos-mainnet"
+rpc = "https://rpc.mainnet.desmos.network:443"
+api = "https://api.mainnet.desmos.network:443"
+
+[[chains]]
+name = "Dyson"
+displayname = "Dyson Protocol"
+chain-id = "dyson-mainnet-01"
+rpc = "https://dys-tm.dyson.lol:443"
+api = "https://dys-api.dyson.lol:443"
+
+[[chains]]
+name = "emoney"
+displayname = "e-Money"
+chain-id = "emoney-3"
+rpc = "https://rpc-emoney.keplr.app:443"
+api = "https://lcd-emoney.keplr.app:443"
+
+[[chains]]
+name = "evmos"
+displayname = "Evmos"
+chain-id = "evmos_9001-2"
+rpc = "https://rpc.evmos.chaintools.tech:443"
+api = "https://api.evmos.chaintools.tech:443"
+
+[[chains]]
+name = "fetchai"
+displayname = "Fetch.ai"
+chain-id = "fetchhub-4"
+rpc = "https://rpc-fetchhub.fetch.ai:443"
+api = "https://rest-fetchhub.fetch.ai:443"
+
+[[chains]]
+name = "firmachain"
+displayname = "FirmaChain"
+chain-id = "colosseum-1"
+rpc = "https://rpc.firmachain.chaintools.tech:443"
+api = "https://api.firmachain.chaintools.tech:443"
+
+[[chains]]
+name = "gitopia"
+displayname = "Gitopia"
+chain-id = "gitopia"
+rpc = "https://gitopia-rpc.polkachu.com:443"
+api = "https://gitopia-api.polkachu.com:443"
+
+[[chains]]
+name = "ixo"
+displayname = "IXO"
+chain-id = "ixo-5"
+rpc = "https://impacthub.ixo.world:443/rpc/"
+api = "https://impacthub.ixo.world:443/rest/"
+
+[[chains]]
+name = "jackal"
+displayname = "Jackal"
+chain-id = "jackal-1"
+rpc = "https://rpc.jackalprotocol.com:443"
+api = "https://api.jackalprotocol.com:443"
+
+[[chains]]
+name = "juno"
+displayname = "Juno"
+chain-id = "juno-1"
+rpc = "https://rpc.juno.chaintools.tech:443"
+api = "https://api.juno.chaintools.tech:443"
+api_gov_prop = "/cosmos/gov/v1/proposals"
+
+[[chains]]
+name = "kava"
+displayname = "Kava"
+chain-id = "kava_2222-10"
+rpc = "https://kava-rpc.polkachu.com:443"
+api = "https://kava-api.polkachu.com:443"
+
+[[chains]]
+name = "kichain"
+displayname = "KiChain"
+chain-id = "kichain-2"
+rpc = "https://rpc.kichain.chaintools.tech:443"
+api = "https://api.kichain.chaintools.tech:443"
+
+[[chains]]
+name = "konstellation"
+displayname = "Konstellation"
+chain-id = "darchub"
+rpc = "https://rpc.konstellation.chaintools.tech:443"
+api = "https://api.konstellation.chaintools.tech:443"
+
+[[chains]]
+name = "kujira"
+displayname = "Kujira"
+chain-id = "kaiyo-1"
+rpc = "https://rpc.kujira.chaintools.tech:443"
+api = "https://api.kujira.chaintools.tech:443"
+
+[[chains]]
+name = "kyve"
+displayname = "Kyve"
+chain-id = "kyve-1"
+rpc = "https://rpc-eu-1.kyve.network:443"
+api = "https://api-eu-1.kyve.network:443"
+
+[[chains]]
+name = "lumnetwork"
+displayname = "Lum Network"
+chain-id = "lum-network-1"
+rpc = "https://node0.mainnet.lum.network:443/rpc"
+api = "https://node0.mainnet.lum.network:443/rest"
+
+[[chains]]
+name = "panacea"
+displayname = "Medibloc"
+chain-id = "panacea-3"
+rpc = "https://rpc.gopanacea.org:443"
+api = "https://api.gopanacea.org:443"
+
+[[chains]]
+name = "meme"
+displayname = "MEME"
+chain-id = "meme-1"
+rpc = "https://rpc-meme-1.meme.sx:443"
+api = "https://api-meme-1.meme.sx:443"
+
+[[chains]]
+name = "nois"
+displayname = "Nois"
+chain-id = "nois-1"
+rpc = "https://nois-rpc.lavenderfive.com:443"
+api = "https://nois-api.lavenderfive.com:443"
+
+[[chains]]
+name = "omniflix"
+displayname = "OmniFlix"
+chain-id = "omniflixhub-1"
+rpc = "https://rpc.omniflix.chaintools.tech:443"
+api = "https://api.omniflix.chaintools.tech:443"
+
+[[chains]]
+name = "osmosis"
+displayname = "Osmosis"
+chain-id = "osmosis-1"
+rpc = "https://rpc.osmosis.zone:443"
+api = "https://lcd.osmosis.zone:443"
+
+[[chains]]
+name = "passage"
+displayname = "Passage"
+chain-id = "passage-2"
+rpc = "https://rpc-passage.ecostake.com:443"
+api = "https://rest-passage.ecostake.com:443"
+
+[[chains]]
+name = "provenance"
+displayname = "Provenance"
+chain-id = "pio-mainnet-1"
+rpc = "https://rpc.provenance.io:443"
+api = "https://api.provenance.io:443"
+
+[[chains]]
+name = "quasar"
+displayname = "Quasar"
+chain-id = "quasar-1"
+rpc = "https://quasar-rpc.polkachu.com:443"
+api = "https://quasar-api.polkachu.com:443"
+
+[[chains]]
+name = "rizon"
+displayname = "Rizon"
+chain-id = "titan-1"
+rpc = "https://rpc.rizon.chaintools.tech:443"
+api = "https://api.rizon.chaintools.tech:443"
+
+[[chains]]
+name = "sentinel"
+displayname = "Sentinel"
+chain-id = "sentinelhub-2"
+rpc = "https://rpc.sentinel.chaintools.tech:443"
+api = "https://api.sentinel.chaintools.tech:443"
+#rpc = "https://rpc.sentinel.co:443"
+#api = "https://lcd.sentinel.co:443"
+
+[[chains]]
+name = "sifchain"
+displayname = "SifChain"
+chain-id = "sifchain-1"
+rpc = "https://sifchain-rpc.polkachu.com:443"
+api = "https://sifchain-api.polkachu.com:443"
+
+[[chains]]
+name = "source"
+displayname = "Source"
+chain-id = "source-1"
+rpc = "https://source.rpc.moonbridge.team:443"
+api = "https://source.api.moonbridge.team:443"
+
+[[chains]]
+name = "teritori"
+displayname = "Teritori"
+chain-id = "teritori-1"
+rpc = "https://teritori-rpc.lavenderfive.com:443"
+api = "https://teritori-api.lavenderfive.com:443"
+
+[[chains]]
+name = "unification"
+displayname = "Unification"
+chain-id = "FUND-MainNet-2"
+rpc = "https://rpc1.unification.io:443"
+api = "https://rest.unification.io:443"
+
+[[chains]]
+name = "vidulum"
+displayname = "Vidulum"
+chain-id = "vidulum-1"
+rpc = "https://mainnet-rpc.vidulum.app:443"
+api = "https://mainnet-lcd.vidulum.app:443"
+
+[[chains]]
+name = "xpla"
+displayname = "XPLA"
+chain-id = "dimension_37-1"
+rpc = "https://dimension-rpc.xpla.dev:443"
+api = "https://dimension-lcd.xpla.dev:443"
