@@ -99,13 +99,6 @@ def process_chain(chain):
                      voting_start_time, voting_end_time]
                 )
 
-                if chain_id == 'juno-1':
-                    logger.info(f"Chain ID: {chain_id}, "
-                                f"Proposal ID: {proposal_id}, "
-                                f"Status: {proposal_status},"
-                                f"URL: {api_url}{api_gov_prop}?pagination.limit={limit}"
-                                f"Proposals: {chain_proposals}")
-
             except AttributeError as ae:
                 logger.error(f"AttributeError occurred: {ae}, {chain_id}, {proposal_id}")
                 continue  # Skip this proposal and continue with the next one
