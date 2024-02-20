@@ -24,13 +24,13 @@ The Blockchain Proposal Summary Dashboard is a Flask-based web application desig
 1. **Clone the repository:**
    
    ```
-   git clone https://github.com/yourusername/blockchain-proposal-dashboard.git
+   git clone https://github.com/ChainTools-Tech/cosm_gov_web
    ```
 
 2. **Navigate to the project directory:**
 
    ```
-   cd blockchain-proposal-dashboard
+   cd cosm_gov_web
    ```
 
 3. **Install dependencies:**
